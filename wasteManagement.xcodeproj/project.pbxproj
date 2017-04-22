@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3442A9BA1EABB43D00B2431D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3442A9B91EABB43D00B2431D /* main.m */; };
+		3442A9BD1EABB43D00B2431D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3442A9BC1EABB43D00B2431D /* AppDelegate.m */; };
+		3442A9C01EABB43D00B2431D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3442A9BF1EABB43D00B2431D /* ViewController.m */; };
+		3442A9C31EABB43D00B2431D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3442A9C11EABB43D00B2431D /* Main.storyboard */; };
+		3442A9C51EABB43D00B2431D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3442A9C41EABB43D00B2431D /* Assets.xcassets */; };
+		3442A9C81EABB43D00B2431D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3442A9C61EABB43D00B2431D /* LaunchScreen.storyboard */; };
+		3442A9D31EABB43D00B2431D /* wasteManagementTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3442A9D21EABB43D00B2431D /* wasteManagementTests.m */; };
+		3442A9DE1EABB43D00B2431D /* wasteManagementUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3442A9DD1EABB43D00B2431D /* wasteManagementUITests.m */; };
+		3442A9ED1EABB9A800B2431D /* SecondPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3442A9EC1EABB9A800B2431D /* SecondPageViewController.m */; };
+		3442A9F01EABBB3C00B2431D /* distanceAskerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3442A9EF1EABBB3C00B2431D /* distanceAskerViewController.m */; };
+		3442A9F21EABBD1E00B2431D /* maxresdefault.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3442A9F11EABBD1E00B2431D /* maxresdefault.jpg */; };
+		3442A9F41EABBD2300B2431D /* 150421123716-beautiful-south-korea--ojakgyo-super-169.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3442A9F31EABBD2300B2431D /* 150421123716-beautiful-south-korea--ojakgyo-super-169.jpg */; };
+		3442A9F61EABBD2800B2431D /* charlestons-location-along-the-water-makes-for-beautiful-scenery-waterfront-park-stretches-along-the-cooper-river-and-is-a-favorite-for-both-locals-and-visitors.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3442A9F51EABBD2800B2431D /* charlestons-location-along-the-water-makes-for-beautiful-scenery-waterfront-park-stretches-along-the-cooper-river-and-is-a-favorite-for-both-locals-and-visitors.jpg */; };
+		3442A9FB1EABC51700B2431D /* maxresdefault-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3442A9FA1EABC51700B2431D /* maxresdefault-2.jpg */; };
+		3442A9FE1EABC57C00B2431D /* WhatRecycleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3442A9FD1EABC57C00B2431D /* WhatRecycleViewController.m */; };
+		3442AA011EABCAA300B2431D /* amountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3442AA001EABCAA300B2431D /* amountViewController.m */; };
+		3442AA041EABCECE00B2431D /* savedControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3442AA031EABCECE00B2431D /* savedControllerViewController.m */; };
+		3442AA061EABDFDA00B2431D /* y8PUOJ3hR56ir+FMikYqgg_thumb_1713.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3442AA051EABDFDA00B2431D /* y8PUOJ3hR56ir+FMikYqgg_thumb_1713.jpg */; };
+		3442AA0D1EABE4C400B2431D /* icon_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3442AA071EABE4C400B2431D /* icon_iPad.png */; };
+		3442AA0E1EABE4C400B2431D /* icon_iPad2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3442AA081EABE4C400B2431D /* icon_iPad2x.png */; };
+		3442AA0F1EABE4C400B2431D /* icon_iPadPro.png in Resources */ = {isa = PBXBuildFile; fileRef = 3442AA091EABE4C400B2431D /* icon_iPadPro.png */; };
+		3442AA101EABE4C400B2431D /* iPhone2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3442AA0A1EABE4C400B2431D /* iPhone2x.png */; };
+		3442AA111EABE4C400B2431D /* iPhone3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3442AA0B1EABE4C400B2431D /* iPhone3x.png */; };
+		3442AA121EABE4C400B2431D /* main_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3442AA0C1EABE4C400B2431D /* main_icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3442A9CF1EABB43D00B2431D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3442A9AD1EABB43D00B2431D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3442A9B41EABB43D00B2431D;
+			remoteInfo = wasteManagement;
+		};
+		3442A9DA1EABB43D00B2431D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3442A9AD1EABB43D00B2431D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3442A9B41EABB43D00B2431D;
+			remoteInfo = wasteManagement;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3442A9B51EABB43D00B2431D /* wasteManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wasteManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3442A9B91EABB43D00B2431D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3442A9BB1EABB43D00B2431D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3442A9BC1EABB43D00B2431D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3442A9BE1EABB43D00B2431D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3442A9BF1EABB43D00B2431D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3442A9C21EABB43D00B2431D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3442A9C41EABB43D00B2431D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3442A9C71EABB43D00B2431D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3442A9C91EABB43D00B2431D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3442A9CE1EABB43D00B2431D /* wasteManagementTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wasteManagementTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3442A9D21EABB43D00B2431D /* wasteManagementTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wasteManagementTests.m; sourceTree = "<group>"; };
+		3442A9D41EABB43D00B2431D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3442A9D91EABB43D00B2431D /* wasteManagementUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wasteManagementUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3442A9DD1EABB43D00B2431D /* wasteManagementUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wasteManagementUITests.m; sourceTree = "<group>"; };
+		3442A9DF1EABB43D00B2431D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3442A9EB1EABB9A800B2431D /* SecondPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondPageViewController.h; sourceTree = "<group>"; };
+		3442A9EC1EABB9A800B2431D /* SecondPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondPageViewController.m; sourceTree = "<group>"; };
+		3442A9EE1EABBB3C00B2431D /* distanceAskerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = distanceAskerViewController.h; sourceTree = "<group>"; };
+		3442A9EF1EABBB3C00B2431D /* distanceAskerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = distanceAskerViewController.m; sourceTree = "<group>"; };
+		3442A9F11EABBD1E00B2431D /* maxresdefault.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = maxresdefault.jpg; sourceTree = "<group>"; };
+		3442A9F31EABBD2300B2431D /* 150421123716-beautiful-south-korea--ojakgyo-super-169.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "150421123716-beautiful-south-korea--ojakgyo-super-169.jpg"; sourceTree = "<group>"; };
+		3442A9F51EABBD2800B2431D /* charlestons-location-along-the-water-makes-for-beautiful-scenery-waterfront-park-stretches-along-the-cooper-river-and-is-a-favorite-for-both-locals-and-visitors.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "charlestons-location-along-the-water-makes-for-beautiful-scenery-waterfront-park-stretches-along-the-cooper-river-and-is-a-favorite-for-both-locals-and-visitors.jpg"; sourceTree = "<group>"; };
+		3442A9FA1EABC51700B2431D /* maxresdefault-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "maxresdefault-2.jpg"; sourceTree = "<group>"; };
+		3442A9FC1EABC57C00B2431D /* WhatRecycleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhatRecycleViewController.h; sourceTree = "<group>"; };
+		3442A9FD1EABC57C00B2431D /* WhatRecycleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhatRecycleViewController.m; sourceTree = "<group>"; };
+		3442A9FF1EABCAA300B2431D /* amountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = amountViewController.h; sourceTree = "<group>"; };
+		3442AA001EABCAA300B2431D /* amountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = amountViewController.m; sourceTree = "<group>"; };
+		3442AA021EABCECE00B2431D /* savedControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = savedControllerViewController.h; sourceTree = "<group>"; };
+		3442AA031EABCECE00B2431D /* savedControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = savedControllerViewController.m; sourceTree = "<group>"; };
+		3442AA051EABDFDA00B2431D /* y8PUOJ3hR56ir+FMikYqgg_thumb_1713.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "y8PUOJ3hR56ir+FMikYqgg_thumb_1713.jpg"; sourceTree = "<group>"; };
+		3442AA071EABE4C400B2431D /* icon_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_iPad.png; sourceTree = "<group>"; };
+		3442AA081EABE4C400B2431D /* icon_iPad2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_iPad2x.png; sourceTree = "<group>"; };
+		3442AA091EABE4C400B2431D /* icon_iPadPro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_iPadPro.png; sourceTree = "<group>"; };
+		3442AA0A1EABE4C400B2431D /* iPhone2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone2x.png; sourceTree = "<group>"; };
+		3442AA0B1EABE4C400B2431D /* iPhone3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone3x.png; sourceTree = "<group>"; };
+		3442AA0C1EABE4C400B2431D /* main_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main_icon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3442A9B21EABB43D00B2431D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3442A9CB1EABB43D00B2431D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3442A9D61EABB43D00B2431D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3442A9AC1EABB43D00B2431D = {
+			isa = PBXGroup;
+			children = (
+				3442AA071EABE4C400B2431D /* icon_iPad.png */,
+				3442AA081EABE4C400B2431D /* icon_iPad2x.png */,
+				3442AA091EABE4C400B2431D /* icon_iPadPro.png */,
+				3442AA0A1EABE4C400B2431D /* iPhone2x.png */,
+				3442AA0B1EABE4C400B2431D /* iPhone3x.png */,
+				3442AA0C1EABE4C400B2431D /* main_icon.png */,
+				3442A9FA1EABC51700B2431D /* maxresdefault-2.jpg */,
+				3442A9F11EABBD1E00B2431D /* maxresdefault.jpg */,
+				3442A9F51EABBD2800B2431D /* charlestons-location-along-the-water-makes-for-beautiful-scenery-waterfront-park-stretches-along-the-cooper-river-and-is-a-favorite-for-both-locals-and-visitors.jpg */,
+				3442A9F31EABBD2300B2431D /* 150421123716-beautiful-south-korea--ojakgyo-super-169.jpg */,
+				3442AA051EABDFDA00B2431D /* y8PUOJ3hR56ir+FMikYqgg_thumb_1713.jpg */,
+				3442A9B71EABB43D00B2431D /* wasteManagement */,
+				3442A9D11EABB43D00B2431D /* wasteManagementTests */,
+				3442A9DC1EABB43D00B2431D /* wasteManagementUITests */,
+				3442A9B61EABB43D00B2431D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3442A9B61EABB43D00B2431D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3442A9B51EABB43D00B2431D /* wasteManagement.app */,
+				3442A9CE1EABB43D00B2431D /* wasteManagementTests.xctest */,
+				3442A9D91EABB43D00B2431D /* wasteManagementUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3442A9B71EABB43D00B2431D /* wasteManagement */ = {
+			isa = PBXGroup;
+			children = (
+				3442A9BB1EABB43D00B2431D /* AppDelegate.h */,
+				3442A9BC1EABB43D00B2431D /* AppDelegate.m */,
+				3442A9BE1EABB43D00B2431D /* ViewController.h */,
+				3442A9BF1EABB43D00B2431D /* ViewController.m */,
+				3442A9C11EABB43D00B2431D /* Main.storyboard */,
+				3442AA021EABCECE00B2431D /* savedControllerViewController.h */,
+				3442AA031EABCECE00B2431D /* savedControllerViewController.m */,
+				3442A9FF1EABCAA300B2431D /* amountViewController.h */,
+				3442AA001EABCAA300B2431D /* amountViewController.m */,
+				3442A9FC1EABC57C00B2431D /* WhatRecycleViewController.h */,
+				3442A9FD1EABC57C00B2431D /* WhatRecycleViewController.m */,
+				3442A9EE1EABBB3C00B2431D /* distanceAskerViewController.h */,
+				3442A9EF1EABBB3C00B2431D /* distanceAskerViewController.m */,
+				3442A9EB1EABB9A800B2431D /* SecondPageViewController.h */,
+				3442A9EC1EABB9A800B2431D /* SecondPageViewController.m */,
+				3442A9C41EABB43D00B2431D /* Assets.xcassets */,
+				3442A9C61EABB43D00B2431D /* LaunchScreen.storyboard */,
+				3442A9C91EABB43D00B2431D /* Info.plist */,
+				3442A9B81EABB43D00B2431D /* Supporting Files */,
+			);
+			path = wasteManagement;
+			sourceTree = "<group>";
+		};
+		3442A9B81EABB43D00B2431D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3442A9B91EABB43D00B2431D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3442A9D11EABB43D00B2431D /* wasteManagementTests */ = {
+			isa = PBXGroup;
+			children = (
+				3442A9D21EABB43D00B2431D /* wasteManagementTests.m */,
+				3442A9D41EABB43D00B2431D /* Info.plist */,
+			);
+			path = wasteManagementTests;
+			sourceTree = "<group>";
+		};
+		3442A9DC1EABB43D00B2431D /* wasteManagementUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3442A9DD1EABB43D00B2431D /* wasteManagementUITests.m */,
+				3442A9DF1EABB43D00B2431D /* Info.plist */,
+			);
+			path = wasteManagementUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3442A9B41EABB43D00B2431D /* wasteManagement */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3442A9E21EABB43D00B2431D /* Build configuration list for PBXNativeTarget "wasteManagement" */;
+			buildPhases = (
+				3442A9B11EABB43D00B2431D /* Sources */,
+				3442A9B21EABB43D00B2431D /* Frameworks */,
+				3442A9B31EABB43D00B2431D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wasteManagement;
+			productName = wasteManagement;
+			productReference = 3442A9B51EABB43D00B2431D /* wasteManagement.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3442A9CD1EABB43D00B2431D /* wasteManagementTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3442A9E51EABB43D00B2431D /* Build configuration list for PBXNativeTarget "wasteManagementTests" */;
+			buildPhases = (
+				3442A9CA1EABB43D00B2431D /* Sources */,
+				3442A9CB1EABB43D00B2431D /* Frameworks */,
+				3442A9CC1EABB43D00B2431D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3442A9D01EABB43D00B2431D /* PBXTargetDependency */,
+			);
+			name = wasteManagementTests;
+			productName = wasteManagementTests;
+			productReference = 3442A9CE1EABB43D00B2431D /* wasteManagementTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3442A9D81EABB43D00B2431D /* wasteManagementUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3442A9E81EABB43D00B2431D /* Build configuration list for PBXNativeTarget "wasteManagementUITests" */;
+			buildPhases = (
+				3442A9D51EABB43D00B2431D /* Sources */,
+				3442A9D61EABB43D00B2431D /* Frameworks */,
+				3442A9D71EABB43D00B2431D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3442A9DB1EABB43D00B2431D /* PBXTargetDependency */,
+			);
+			name = wasteManagementUITests;
+			productName = wasteManagementUITests;
+			productReference = 3442A9D91EABB43D00B2431D /* wasteManagementUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3442A9AD1EABB43D00B2431D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Matthew Jagiela";
+				TargetAttributes = {
+					3442A9B41EABB43D00B2431D = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = MCRTE5CC2K;
+						ProvisioningStyle = Automatic;
+					};
+					3442A9CD1EABB43D00B2431D = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = MCRTE5CC2K;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3442A9B41EABB43D00B2431D;
+					};
+					3442A9D81EABB43D00B2431D = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = MCRTE5CC2K;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3442A9B41EABB43D00B2431D;
+					};
+				};
+			};
+			buildConfigurationList = 3442A9B01EABB43D00B2431D /* Build configuration list for PBXProject "wasteManagement" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3442A9AC1EABB43D00B2431D;
+			productRefGroup = 3442A9B61EABB43D00B2431D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3442A9B41EABB43D00B2431D /* wasteManagement */,
+				3442A9CD1EABB43D00B2431D /* wasteManagementTests */,
+				3442A9D81EABB43D00B2431D /* wasteManagementUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3442A9B31EABB43D00B2431D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3442A9F41EABBD2300B2431D /* 150421123716-beautiful-south-korea--ojakgyo-super-169.jpg in Resources */,
+				3442A9C81EABB43D00B2431D /* LaunchScreen.storyboard in Resources */,
+				3442AA061EABDFDA00B2431D /* y8PUOJ3hR56ir+FMikYqgg_thumb_1713.jpg in Resources */,
+				3442A9F21EABBD1E00B2431D /* maxresdefault.jpg in Resources */,
+				3442AA0E1EABE4C400B2431D /* icon_iPad2x.png in Resources */,
+				3442AA111EABE4C400B2431D /* iPhone3x.png in Resources */,
+				3442A9C51EABB43D00B2431D /* Assets.xcassets in Resources */,
+				3442A9F61EABBD2800B2431D /* charlestons-location-along-the-water-makes-for-beautiful-scenery-waterfront-park-stretches-along-the-cooper-river-and-is-a-favorite-for-both-locals-and-visitors.jpg in Resources */,
+				3442A9FB1EABC51700B2431D /* maxresdefault-2.jpg in Resources */,
+				3442AA121EABE4C400B2431D /* main_icon.png in Resources */,
+				3442AA101EABE4C400B2431D /* iPhone2x.png in Resources */,
+				3442AA0F1EABE4C400B2431D /* icon_iPadPro.png in Resources */,
+				3442A9C31EABB43D00B2431D /* Main.storyboard in Resources */,
+				3442AA0D1EABE4C400B2431D /* icon_iPad.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3442A9CC1EABB43D00B2431D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3442A9D71EABB43D00B2431D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3442A9B11EABB43D00B2431D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3442AA041EABCECE00B2431D /* savedControllerViewController.m in Sources */,
+				3442A9FE1EABC57C00B2431D /* WhatRecycleViewController.m in Sources */,
+				3442A9C01EABB43D00B2431D /* ViewController.m in Sources */,
+				3442A9ED1EABB9A800B2431D /* SecondPageViewController.m in Sources */,
+				3442A9BD1EABB43D00B2431D /* AppDelegate.m in Sources */,
+				3442AA011EABCAA300B2431D /* amountViewController.m in Sources */,
+				3442A9F01EABBB3C00B2431D /* distanceAskerViewController.m in Sources */,
+				3442A9BA1EABB43D00B2431D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3442A9CA1EABB43D00B2431D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3442A9D31EABB43D00B2431D /* wasteManagementTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3442A9D51EABB43D00B2431D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3442A9DE1EABB43D00B2431D /* wasteManagementUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3442A9D01EABB43D00B2431D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3442A9B41EABB43D00B2431D /* wasteManagement */;
+			targetProxy = 3442A9CF1EABB43D00B2431D /* PBXContainerItemProxy */;
+		};
+		3442A9DB1EABB43D00B2431D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3442A9B41EABB43D00B2431D /* wasteManagement */;
+			targetProxy = 3442A9DA1EABB43D00B2431D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3442A9C11EABB43D00B2431D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3442A9C21EABB43D00B2431D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3442A9C61EABB43D00B2431D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3442A9C71EABB43D00B2431D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3442A9E01EABB43D00B2431D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3442A9E11EABB43D00B2431D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3442A9E31EABB43D00B2431D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MCRTE5CC2K;
+				INFOPLIST_FILE = wasteManagement/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uapps.wasteManagement;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3442A9E41EABB43D00B2431D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MCRTE5CC2K;
+				INFOPLIST_FILE = wasteManagement/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uapps.wasteManagement;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3442A9E61EABB43D00B2431D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = MCRTE5CC2K;
+				INFOPLIST_FILE = wasteManagementTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uapps.wasteManagementTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wasteManagement.app/wasteManagement";
+			};
+			name = Debug;
+		};
+		3442A9E71EABB43D00B2431D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = MCRTE5CC2K;
+				INFOPLIST_FILE = wasteManagementTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uapps.wasteManagementTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wasteManagement.app/wasteManagement";
+			};
+			name = Release;
+		};
+		3442A9E91EABB43D00B2431D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = MCRTE5CC2K;
+				INFOPLIST_FILE = wasteManagementUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uapps.wasteManagementUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = wasteManagement;
+			};
+			name = Debug;
+		};
+		3442A9EA1EABB43D00B2431D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = MCRTE5CC2K;
+				INFOPLIST_FILE = wasteManagementUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uapps.wasteManagementUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = wasteManagement;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3442A9B01EABB43D00B2431D /* Build configuration list for PBXProject "wasteManagement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3442A9E01EABB43D00B2431D /* Debug */,
+				3442A9E11EABB43D00B2431D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3442A9E21EABB43D00B2431D /* Build configuration list for PBXNativeTarget "wasteManagement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3442A9E31EABB43D00B2431D /* Debug */,
+				3442A9E41EABB43D00B2431D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3442A9E51EABB43D00B2431D /* Build configuration list for PBXNativeTarget "wasteManagementTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3442A9E61EABB43D00B2431D /* Debug */,
+				3442A9E71EABB43D00B2431D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3442A9E81EABB43D00B2431D /* Build configuration list for PBXNativeTarget "wasteManagementUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3442A9E91EABB43D00B2431D /* Debug */,
+				3442A9EA1EABB43D00B2431D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3442A9AD1EABB43D00B2431D /* Project object */;
+}

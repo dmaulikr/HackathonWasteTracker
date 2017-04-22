@@ -1,0 +1,296 @@
+<template name="survey">
+	<h1 class="title">Welcome to survey</h1>
+<div class="container">
+  <div class="row">
+  	<div class="col-lg-10 col-lg-offset-1">
+	<form>
+		<fieldset class="q1 form-group">
+	  	<H1>Background Information </H1>
+	    <H3>How old are you?</H3>
+	    <div id="q1Question" class="form-check">
+	      <label class="form-check-label">
+	        <input type="radio" class="form-check-input" name="q1" id="q1a1" value="3 - 10 years old">
+	        3 - 10 years old
+	      </label>
+	    </div>
+	    <div class="form-check">
+	    <label class="form-check-label">
+	        <input type="radio" class="form-check-input" name="q1" id="q1a2" value="11 - 17 years old">
+	        11 - 17 years old
+	      </label>
+	    </div>
+	    <div class="form-check">
+	    <label class="form-check-label">
+	        <input type="radio" class="form-check-input" name="q1" id="q1a3" value="18 - 31 years old">
+	        18 - 31 years old 
+	      </label>
+	    </div>
+
+	    <div class="form-check">
+	    <label class="form-check-label">
+	        <input type="radio" class="form-check-input" name="q1" id="q1a4" value="32 - 42 years old">
+	        32 - 42 years old 
+	      </label>
+	    </div>
+
+	    <div class="form-check">
+	    <label class="form-check-label">
+	        <input type="radio" class="form-check-input" name="q1" id="q1a5" value="43 - 52 years old">
+	        43 - 52 years old 
+	      </label>
+	    </div>
+
+	    <div class="form-check">
+	    <label class="form-check-label">
+	        <input type="radio" class="form-check-input" name="q1" id="q1a6" value="53+ years old">
+	        53+ years old 
+	      </label>
+	    </div>
+	  </fieldset>
+
+	  <fieldset class="checkbox1 form-group">
+	    <H3>What Materials do you recycle?</H3>
+	    <div class="form-check">
+		    <label class="form-check-label">
+		      <input id="q2a1" type="checkbox" class="form-check-input">
+		      Plastic
+		    </label>
+		</div>
+		<div class="form-check">
+		    <label class="form-check-label">
+		      <input id="q2a2" type="checkbox" class="form-check-input">
+		      Paper
+		    </label>
+		</div>
+		<div class="form-check">
+		    <label class="form-check-label">
+		      <input id="q2a3" type="checkbox" class="form-check-input">
+		      Electrical
+		    </label>
+		</div>
+		<div class="form-check">
+		    <label class="form-check-label">
+		      <input id="q2a4" type="checkbox" class="form-check-input">
+		      Glass
+		    </label>
+		</div>
+		<div class="form-check">
+		    <label class="form-check-label">
+		      <input id="q2a5" type="checkbox" class="form-check-input">
+		      Aluminium
+		    </label>
+		</div>
+	  </fieldset>
+
+	  <!-- <fieldset class="form-group">
+	    <H3>How far would you be prepared or expect to travel to use recycling bins or go to a recycling center?</H3>
+	    <div class="form-check">
+	      <label class="form-check-label">
+	        <input type="radio" class="form-check-input" name="q3" id="13a1" value="5 Miles">
+	        5 Miles
+	      </label>
+	    </div>
+	    <div class="form-check">
+	    <label class="form-check-label">
+	        <input type="radio" class="form-check-input" name="q3" id="q3a2" value="10 miles">
+	        10 miles
+	      </label>
+	    </div>
+	    <div class="form-check">
+	    <label class="form-check-label">
+	        <input type="radio" class="form-check-input" name="q3" id="q3a3" value="20 miles ">
+	        20 miles 
+	      </label>
+	    </div>
+
+	    <div class="form-check">
+	    <label class="form-check-label">
+	        <input type="radio" class="form-check-input" name="q3" id="q3a4" value="50 miles">
+	        50 miles
+	      </label>
+	    </div>
+
+	    <div class="form-check">
+	    <label class="form-check-label">
+	        <input type="radio" class="form-check-input" name="q3" id="q3a5" value="None">
+	        None
+	      </label>
+	    </div>
+	  </fieldset> -->
+
+	  <fieldset class="form-group">
+	  	<H1>Plastic</H1>
+	    <H3>How Many Plastic bottles, containers, wrap do you use in a weekly basis?</H3>
+	    <div class="form-check">
+	      <label class="form-check-label">
+	        <input type="radio" class="form-check-input" name="q4" id="q4a1" value="1 plastic">
+	        1 plastic
+	      </label>
+	    </div>
+
+	    <div class="form-check">
+	    <label class="form-check-label">
+	        <input type="radio" class="form-check-input" name="q4" id="q4a2" value="5 plastics">
+	        5 plastics
+	      </label>
+	    </div>
+
+	    <div class="form-check">
+	    <label class="form-check-label">
+	        <input type="radio" class="form-check-input" name="q4" id="q4a3" value="10 plastics">
+	        10 plastics 
+	      </label>
+	    </div>
+
+	    <div class="form-check">
+	    <label class="form-check-label">
+	        <input type="radio" class="form-check-input" name="q4" id="q4a4" value="20+ plastics">
+	        20+ plastics 
+	      </label>
+	    </div>
+	  </fieldset>
+
+	  <fieldset class="form-group">
+	  	<H1>Paper</H1>
+	    <H3>Do you recieve bank statements via mail?</H3>
+	    <div class="form-check">
+	      <label class="form-check-label">
+	        <input type="radio" class="form-check-input" name="q5" id="q5a1" value="Yes">
+	        Yes
+	      </label>
+	    </div>
+	    <div class="form-check">
+	    <label class="form-check-label">
+	        <input type="radio" class="form-check-input" name="q5" id="q5a2" value="No">
+	        No
+	      </label>
+	    </div>
+	  </fieldset>
+
+	   <fieldset class="form-group">
+	    <H3>Estimate How much cardboard you use yearly?</H3>
+	    <div class="form-check">
+	      <label class="form-check-label">
+	        <input type="radio" class="form-check-input" name="q6" id="q6a1" value="20 yearly">
+	        20 yearly
+	      </label>
+	    </div>
+	    <div class="form-check">
+	    <label class="form-check-label">
+	        <input type="radio" class="form-check-input" name="q6" id="q6a2" value="50 yearly">
+	        50 yearly
+	      </label>
+	    </div>
+
+	    <div class="form-check">
+	    <label class="form-check-label">
+	        <input type="radio" class="form-check-input" name="q6" id="q6a3" value="100 yearly">
+	        100 yearly
+	      </label>
+	    </div>
+
+	    <div class="form-check">
+	    <label class="form-check-label">
+	        <input type="radio" class="form-check-input" name="q6" id="q6a4" value="300+ yearly">
+	        300+ yearly
+	      </label>
+	    </div>
+	  </fieldset>
+
+	  <!-- <fieldset class="form-group">
+	    <H3>What is the size of those card board boxes?</H3>
+	    <div class="form-check">
+	      <label class="form-check-label">
+	        <input type="radio" class="form-check-input" name="q7" id="q7a1" value="Small size">
+	        Small size
+	      </label>
+	    </div>
+	    <div class="form-check">
+	    <label class="form-check-label">
+	        <input type="radio" class="form-check-input" name="q7" id="q7a2" value="Medium size">
+	        Medium size
+	      </label>
+	    </div>
+
+	    <div class="form-check">
+	    <label class="form-check-label">
+	        <input type="radio" class="form-check-input" name="q7" id="q7a3" value="Large size">
+	        Large size
+	      </label>
+	    </div>
+	  </fieldset> -->
+
+	  <fieldset class="form-group">
+	    <H3>Are you subsribed to any newspapers or magazines?</H3>
+	    <div class="form-check">
+	      <label class="form-check-label">
+	        <input type="radio" class="form-check-input" name="q8" id="q8a1" value="Yes">
+	        Yes
+	      </label>
+	    </div>
+	    <div class="form-check">
+	    <label class="form-check-label">
+	        <input type="radio" class="form-check-input" name="q8" id="q8a2" value="No">
+	        No
+	      </label>
+	    </div>
+	  </fieldset>
+
+	  <fieldset class="form-group">
+	  	<H1>Eletrical</H1>
+	    <H3>Can you pick what eletrcial materials are recyclable?</H3>
+	    <div class="form-check">
+		    <label class="form-check-label">
+		      <input id="q9a1" type="checkbox" class="form-check-input">
+		      Light Bulb
+		    </label>
+		</div>
+		<div class="form-check">
+		    <label class="form-check-label">
+		      <input id="q9a2" type="checkbox" class="form-check-input">
+		      Batteries
+		    </label>
+		</div>
+		<div class="form-check">
+		    <label class="form-check-label">
+		      <input id="q9a3" type="checkbox" class="form-check-input">
+		      Laptops
+		    </label>
+		</div>
+		<div class="form-check">
+		    <label class="form-check-label">
+		      <input id="q9a4" type="checkbox" class="form-check-input">
+		      Smartphones
+		    </label>
+		</div>
+	  </fieldset>
+
+	  <fieldset class="form-group">
+	  	<H1>Aluminum and Glass</H1>
+	    <H3>How many bottles and cans do you use on a dialy basis?</H3>
+	    <div class="form-check">
+	      <label class="form-check-label">
+	        <input type="radio" class="form-check-input" name="q10" id="q10a1" value="5 and below">
+	        5 and below
+	      </label>
+	    </div>
+	    <div class="form-check">
+	    <label class="form-check-label">
+	        <input type="radio" class="form-check-input" name="q10" id="q10a2" value="10 bottles and cans">
+	        10 bottles and cans
+	      </label>
+	    </div>
+	    <div class="form-check">
+	    <label class="form-check-label">
+	        <input type="radio" class="form-check-input" name="q10" id="q10a3" value="20+ bottles and cans">
+	        20+ bottles and cans
+	      </label>
+	    </div>
+	  </fieldset>
+
+	  <button id="submit" type="submit" class="submit btn btn-primary">Submit</button>
+	</form>
+	</div>
+</div>
+</div>
+</template>
